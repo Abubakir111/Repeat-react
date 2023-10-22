@@ -61,7 +61,6 @@ const Todos = () => {
           <input type="text" placeholder="имя...." />
           <button type="submit">добавить</button>
         </form>
-        // <div></div>
       )}
     </div>
   );
