@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react';
 import style from './user.module.css';
-// import uniqid from 'uniqid';
+import uniqid from 'uniqid';
 import axios from 'axios';
 
 const Todos = () => {
-  // const randomId = uniqid;
   const [users, userTodos] = useState([]);
   const defaultState = {
     add: false,
@@ -35,7 +34,7 @@ const Todos = () => {
   const addUsers = (e) => {
     e.preventDefault();
     if (e.target[1].value !== '')
-      userTodos([...users, { name: e.target[1].value }]);
+      userTodos([...users, { id: uniqid(), name: e.target[1].value }]);
     e.target[1].value = '';
   };
   return (
