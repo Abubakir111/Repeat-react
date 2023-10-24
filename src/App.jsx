@@ -1,12 +1,12 @@
-import Todos from './components/todos/Todos';
+import { BrowserRouter } from 'react-router-dom';
+import AppRoutes from './links/AppRoutes';
 
-function App() {
+const App = () => {
   return (
-    <div className="container">
-      {/* <AddUser /> */}
-      <Todos />
-    </div>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
