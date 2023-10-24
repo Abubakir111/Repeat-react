@@ -6,9 +6,13 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        {publicRoutes.map(({ path, element }) => (
-          <Route key={path} path={path} element={element} />
-        ))}
+        {publicRoutes.map(({ path, element }) =>
+          path === '/' ? (
+            <Route key={path} index element={element} />
+          ) : (
+            <Route key={path} path={path} element={element} />
+          )
+        )}
       </Route>
     </Routes>
   );
