@@ -1,7 +1,7 @@
 const Links = {
   users: '/',
   portfolio: '/portfolio',
-  taskAddingPage: '/taskAddingPage',
+  dzList: '/dzList',
   noRouting: '*',
 };
 export default Links;

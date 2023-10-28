@@ -6,6 +6,7 @@ const NoRouting = () => {
   return (
     <div className={style.container}>
       <h1 className={style.h1}> Такой страницы нету - ошибка 404</h1>
+
       <Link to={Links.users}>
         <button type="button">Вернуться на главную страницу</button>
       </Link>

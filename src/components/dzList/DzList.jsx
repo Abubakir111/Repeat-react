@@ -1,10 +1,7 @@
 import style from './dzList.module.css';
-import { useState } from 'react';
-import Links from '../../links/Links';
-import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 
 const DzList = () => {
+  return <div> ?....</div>;
   // return (
   //   // <div className={style.select}>
   //   //   {dzPopap ? (

@@ -1,8 +1,8 @@
+import Links from './Links';
 import Users from '../pages/users/Users';
 import NoRouting from '../pages/noRouting/NoRouting';
 import Portfolio from '../pages/portfolio/Portfolio';
-import AddDPage from '../pages/addDzPage/AddDzPage';
-import Links from './Links';
+import DzList from '../components/dzList/DzList';
 
 const publicRoutes = [
   {
@@ -18,8 +18,8 @@ const publicRoutes = [
     element: <Portfolio />,
   },
   {
-    path: Links.taskAddingPage,
-    element: <AddDPage />,
+    path: Links.dzList,
+    element: <DzList />,
   },
 ];
 export default publicRoutes;

@@ -19,11 +19,6 @@ const Layout = () => {
                 Портфолио
               </Link>
             </li>
-            <li className={style.li}>
-              <Link to={Links.taskAddingPage} className={style.link}>
-                Домашний задание
-              </Link>
-            </li>
           </ul>
         </nav>
         <DzList />
