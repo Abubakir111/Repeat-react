@@ -23,7 +23,9 @@ ol {
 }
 .linkContianer {
   width: 308px;
-  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .li {
   width: 100%;
