@@ -1,0 +1,23 @@
+.form {
+  width: max-content;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 15px;
+  font-size: 1.2em;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input {
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  font-size: 1em;
+}

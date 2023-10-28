@@ -1,0 +1,23 @@
+.forma {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 40px 20px;
+  position: relative;
+}
+.forma input {
+  width: 93%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.btn1 {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  top: 5px;
+  right: 5px;
+  position: absolute;
+  font-weight: 600;
+  font-size: 15px;
+}

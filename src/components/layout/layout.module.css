@@ -29,36 +29,3 @@ header nav ul {
 .link:active {
   color: rgb(71, 70, 70);
 }
-.select {
-  width: max-content;
-  height: 100%;
-  margin-top: 20px;
-}
-.Popap {
-  width: 60px;
-  height: max-content;
-  padding: 5px 10px;
-  background: rgb(63, 61, 61);
-  border-radius: 5px;
-}
-
-.openPopap {
-  width: 60px;
-  padding: 5px 10px;
-  background: rgb(63, 61, 61);
-  border-radius: 5px;
-}
-.closePopap {
-  width: 60px;
-  height: 40px;
-  padding: 7px 10px;
-  background: rgb(63, 61, 61);
-  border-radius: 5px;
-}
-.a {
-  display: block;
-  list-style: none;
-  text-decoration: none;
-  color: aliceblue;
-  transition: all 1s;
-}

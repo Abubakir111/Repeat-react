@@ -1,7 +1,7 @@
-import Todos from '../pages/todos/Todos';
-import Posts from '../pages/posts/Posts';
 import Users from '../pages/users/Users';
 import NoRouting from '../pages/noRouting/NoRouting';
+import Portfolio from '../pages/portfolio/Portfolio';
+import AddDPage from '../pages/addDzPage/AddDzPage';
 import Links from './Links';
 
 const publicRoutes = [
@@ -10,16 +10,16 @@ const publicRoutes = [
     element: <Users />,
   },
   {
-    path: Links.todos,
-    element: <Todos />,
-  },
-  {
-    path: Links.posts,
-    element: <Posts />,
-  },
-  {
     path: Links.noRouting,
     element: <NoRouting />,
+  },
+  {
+    path: Links.portfolio,
+    element: <Portfolio />,
+  },
+  {
+    path: Links.taskAddingPage,
+    element: <AddDPage />,
   },
 ];
 export default publicRoutes;
