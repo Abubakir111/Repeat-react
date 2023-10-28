@@ -22,8 +22,10 @@ const UserForm = () => {
       >
         &times;
       </button>
-      <input type="text" placeholder="имя...." />
-      <button type="submit">добавить</button>
+      <div className={style.inputContainer}>
+        <input type="text" placeholder="имя...." />
+        <button type="submit">добавить</button>
+      </div>
     </form>
   );
 };

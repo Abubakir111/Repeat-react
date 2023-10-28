@@ -5,6 +5,12 @@
   padding: 40px 20px;
   position: relative;
 }
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .forma input {
   width: 93%;
   height: 35px;
