@@ -22,6 +22,7 @@ const generalSlice = createSlice({
 
   reducers: {
     deletUser: (state, action) => {
+      state.users = action.payload;
       // удалить  пользователя
       state.users = state.users.filter((user) => user.id !== action.payload);
     },

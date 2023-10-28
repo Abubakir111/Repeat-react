@@ -3,13 +3,13 @@ import avatar from '../../acsses/images/avatar.jpg';
 
 const Portfolio = () => {
   return (
-    <div class={style.container}>
-      <img src={avatar} alt="Profile Picture" class={style.picture} />
+    <div className={style.container}>
+      <img src={avatar} alt="Profile Picture" className={style.picture} />
       <h1>Базаркул уулу Бакир</h1>
       <p>Email: bakirbazarkul16@gmail.com</p>
       <p>Phone: (700) 394-180</p>
 
-      <div class={style.section}>
+      <div className={style.section}>
         <h2>Краткое содержание</h2>
         <p>
           Высоко мотивированный и внимательный к деталям человек с опытом работы
@@ -17,9 +17,9 @@ const Portfolio = () => {
         </p>
       </div>
 
-      <div class={style.section}>
+      <div className={style.section}>
         <h2>Опыт</h2>
-        <div class={style.experience}>
+        <div className={style.experience}>
           <h3>Web Developer</h3>
           <p>geeks.kg</p>
           <p> октябрь 2023 – настоящее время</p>
@@ -36,39 +36,39 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div class={style.section}>
+      <div className={style.section}>
         <h2>Образование</h2>
-        <div class={style.education}>
+        <div className={style.education}>
           {/* <h3>Secondary education</h3> */}
           <p>Компания geeks.kg</p>
           <p>Окончил 2023 года</p>
         </div>
       </div>
 
-      <div class={style.section}>
+      <div className={style.section}>
         <h2>Навыки</h2>
-        <ul class={style.skill_list}>
-          <li class={style.skill_item}>
+        <ul className={style.skill_list}>
+          <li className={style.skill_item}>
             <i className="fas fa-code icon"></i>HTML
           </li>
-          <li class={style.skill_item}>
+          <li className={style.skill_item}>
             <i className="fas fa-code icon"></i>CSS
           </li>
-          <li class={style.skill_item}>
+          <li className={style.skill_item}>
             <i className="fas fa-code icon"></i>SASS
           </li>
-          <li class={style.skill_item}>
+          <li className={style.skill_item}>
             <i className="fas fa-code icon"></i>SCSS
           </li>
 
-          <li class={style.skill_item}>
+          <li className={style.skill_item}>
             <i className="fab fa-js icon"></i>JavaScript
           </li>
-          <li class={style.skill_item}>react</li>
-          <li class={style.skill_item}>reduxToolkit</li>
-          <li class={style.skill_item}>TanStack Query</li>
-          <li class={style.skill_item}>Tailwindcss</li>
-          <li class={style.skill_item}>GIT</li>
+          <li className={style.skill_item}>react</li>
+          <li className={style.skill_item}>reduxToolkit</li>
+          <li className={style.skill_item}>TanStack Query</li>
+          <li className={style.skill_item}>Tailwindcss</li>
+          <li className={style.skill_item}>GIT</li>
         </ul>
       </div>
     </div>
